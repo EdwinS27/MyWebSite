@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title> Edwin Samaniego portfolio </title>
+  <title>Home</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
   <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body style="background-color: rgb(0,0,0);">
-  <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background-color: rgb(255,255,0);">
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" id="NavBarStyle">
     <div class="container"><a class="navbar-brand logo" href="#">EdwinS</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="/">Home</a></li>
           <li class="nav-item" role="presentation"><a class="nav-link active" href="#project">Projects</a></li>
-          <li class="nav-item" role="presentation"><a class="nav-link active" href="#resume">Resume</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="/assets/pages/resume.html">Resume</a></li>
           <li class="nav-item" role="presentation"><a class="nav-link active" href="#contact" style="color: rgb(255,255,255);">Contact</a></li>
           <li class="nav-item" role="presentation"></li>
         </ul>
       </div>
     </div>
   </nav>
-  <main class="page lanidng-page">
+  <main class="page landing-page">
     <section class="portfolio-block block-intro">
       <div class="container">
-        <div class="avatar" style="background-image: assets"><img src="assets/img/myLogo.jpg" width="150"></div>
+        <div class="avatar">
+          <img src="assets/img/myLogo.jpg" width="150">
+        </div>
         <div class="about-me">
-          <p style="color: rgb(255,255,255);">Hello! I am <strong>Edwin Samaniego</strong>. I am a full stack developer.</p>
+          <p id="AboutMeLine"> Hello! I am <strong>Edwin Samaniego</strong>. I am a full stack developer.</p>
         </div>
       </div>
       <div class="container">
@@ -39,141 +41,6 @@
         <div class="heading">
           <h2 id="project" style="color: rgb(255,255,255);">Projects</h2>
         </div>
-        <!-- End: portfolio heading -->
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/pong.png" alt="Card Image" width="100px" height="350px"></a>
-              <div class="card-body">
-                <h6><a href="#"><br>Local Pong<br><br></a></h6>
-                <p class="text-muted card-text">Created a mini game using the p5 JavaScript library. Also Created a physical version with Arduino and Processing.&nbsp;Arduino is a C++ platform application used to upload programs to the Arduino
-                  boards, and Processing
-                  is a java based open source graphical library and integrated development environment.&nbsp;<br><br></p><button class="btn btn-primary" type="button">&nbsp;<a href="https://github.com/EdwinS27/pong"
-                    style="color: rgb(255,255,255);">Source Code</a></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/starwars.png" alt="Card Image" width="100px" height="350px"></a>
-              <div class="card-body">
-                <h6><a href="#"><br>Star Wars: Galaga<br></a></h6>
-                <p class="text-muted card-text"><br>Created a mini-game based on the perspective of the empire. Created using Processing. A java based open source graphical library and integrated development environment.&nbsp;<br></p><button
-                  class="btn btn-primary" type="button">&nbsp;<a href="https://github.com/EdwinS27/SpaceInvaders" style="color: rgb(255,255,255);">Source Code</a></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/nature/image3.jpg" alt="Card Image" width="100px" height="350px"></a>
-              <div class="card-body">
-                <h6><a href="#"><br>You Are Prepared<br></a></h6>
-                <p class="text-muted card-text">Created an interactive experience using computer vision. It is a web browser body controlled game.<br></p><button class="btn btn-primary" type="button">&nbsp;<a
-                    href="https://www.openprocessing.org/sketch/900184" style="color: rgb(255,255,255);">Source Code</a></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0"><a href="#"></a></div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/driveCar.jpg" alt="Card Image" width="100px" height="350px"></a>
-              <div class="card-body">
-                <h6><a href="#">Drive around the Block</a></h6>
-                <p class="text-muted card-text"><br>Created a mini game using the p5 JavaScript library.<br></p><button class="btn btn-primary" type="button">&nbsp;<a href="https://www.openprocessing.org/sketch/775742"
-                    style="color: rgb(255,255,255);">Source Code</a></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="https://th.bing.com/th/id/OIP.QvLwMgHgdyOdmaUIh5_gVQHaHa?pid=ImgDet&rs=1" alt="Card Image" width="100px" height="350px"></a>
-              <div class="card-body">
-                <h6><a href="/cryptoCalculator/">Visit</a></h6>
-                <p class="text-muted card-text"><br>Created a mini calculator to keep track of potential gains.<br></p><button class="btn btn-primary" type="button">&nbsp;<a href="#" style="color: rgb(255,255,255);">Source Code</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <section class="portfolio-block cv">
-    <div class="container" id="resume" style="color: rgb(255,255,255);">
-      <div class="work-experience group">
-        <div class="heading">
-          <h2 class="text-center" style="color: rgb(255,255,255);">Work Experience</h2>
-        </div>
-        <div class="item">
-          <div class="row">
-            <div class="col-md-6">
-              <h3>Freelance Web Developer</h3>
-              <h4 class="organization">&nbsp;</h4>
-            </div>
-            <div class="col-md-6"><span class="period">12/2019- Present</span></div>
-          </div>
-          <p class="text-muted"></p>
-        </div>
-      </div>
-      <div class="education group" style="color: rgb(255,255,255);">
-        <div class="heading">
-          <h2 class="text-center" style="color: rgb(255,255,255);">Education</h2>
-        </div>
-        <div class="item" style="color: rgb(255,255,255);">
-          <div class="row">
-            <div class="col-md-6">
-              <h3>New York City College of Technology</h3>
-              <h4 class="organization">gpa 3.4</h4>
-            </div>
-            <div class="col-6" style="display: inline-block;"><span class="period" style="color: rgb(255,255,255);">08/2018 - 12/2021</span></div>
-          </div>
-          <p class="text-muted" style="color: rgb(255,255,255);opacity: 1;">Bachelors of Technology<br>Emerging Media Technologies&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Concentration:
-            Media Computation</p>
-        </div>
-      </div>
-      <div class="group">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="skills portfolio-info-card">
-              <h2 style="text-align: center;">Skills</h2>
-              <div class="row">
-                <div class="col">
-                  <h3 style="text-align: center;">CSS</h3>
-                  <h3 style="text-align: center;">HTML5</h3>
-                  <h3 style="text-align: center;">JavaScript</h3>
-                </div>
-                <div class="col">
-                  <h3 style="text-align: center;">PHP</h3>
-                  <h3 style="text-align: center;">Java</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="contact-info portfolio-info-card">
-              <h2 style="color: rgb(255,255,255);text-align: center;">Contact Info</h2>
-              <div class="row">
-                <div class="col-1"><i class="icon ion-person icon"></i></div>
-                <div class="col-9" style="color: rgb(255,255,255);"><span>Edwin Samaniego</span></div>
-              </div>
-              <div class="row">
-                <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
-                <div class="col-9"><span style="color: rgb(255,255,255);"></span></div>
-              </div>
-              <div class="row">
-                <div class="col-1"><i class="icon ion-at icon"></i></div>
-                <div class="col-9"><span style="color: rgb(255,255,255);">edwinsamaniego@edwinsamaniego.tech</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hobbies group">
-        <div class="heading">
-          <h2 class="text-center">Hobbies</h2>
-        </div>
-        <p class="text-center text-muted">I like to do game development and make interactive projects.</p>
-      </div>
-    </div>
-  </section>
   <!-- Start: Contact Form Clean -->
   <div id="contact" class="contact-clean" style="background-color: rgb(0,0,0);">
     <form method="post" style="background-color: rgb(0,0,0);">
@@ -192,7 +59,10 @@
       <footer class="page-footer">
         <div class="container">
           <div class="links"><a href="#">About me</a><a href="#">Projects</a></div>
-          <div class="social-icons"><a href="https://github.com/EdwinS27"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/edwin-samaniego-3934a5114/"><i class="icon ion-social-linkedin"></i></a></div>
+          <div class="social-icons">
+            <a href="https://github.com/EdwinS27"><i class="icon ion-social-github"></i></a>
+            <a href="https://www.linkedin.com/in/edwinsamaniego/"><i class="icon ion-social-linkedin"></i></a>
+          </div>
         </div>
       </footer>
     </form>
@@ -203,5 +73,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
   <script src="assets/js/theme.js"></script>
 </body>
-
 </html>
